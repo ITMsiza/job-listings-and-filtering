@@ -1,0 +1,167 @@
+.App-header{
+  position: relative;
+  min-height: 100px;
+  background-color: #282c34;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+
+}
+.App-header h1{
+  position: absolute;
+  left: 100px;
+  font-size: 70px;
+}
+main div .locationInput{
+  position: absolute;
+  right: 100px;
+  top: -110px;
+  color: white;
+}
+
+main div .typeInput{
+  position: absolute;
+  right: 100px;
+  top: -70px;
+  color: white;
+}
+main div .typeInput label span{
+  font-size: 20px;
+  margin-right: 35px;
+}
+main div .locationInput label span{
+  font-size: 20px;
+}
+main div .locationInput select{
+  padding: 5px;
+  width: 200px;
+ 
+}
+main div .typeInput select{
+  padding: 5px;
+  width: 200px;
+}
+main div{
+  position: relative;
+}
+main div .bodyContent{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: whitesmoke;
+}
+main div .bodyContent .sideBar{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 20%;
+  min-height: 300px;
+}
+main div .bodyContent .sideBar h1{
+  margin-top: 0;
+  border-color: lightgray;
+  border-width: 1px;
+  border-bottom-style: solid;
+  padding-left: 10px;
+}
+main div .bodyContent .sideBar .type{
+  margin-top: 0;
+  position: relative;
+  top: -12px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+main div .bodyContent .sideBar p{
+  padding-left: 10px;
+  font-weight: 400;
+}
+main div .bodyContent .sideBar .nameCount{
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+main div .bodyContent ul{
+  width: 77%;
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  padding: 0;
+}
+main div .bodyContent ul .head{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: white;
+  padding: 0px 20px 0px 20px;
+   border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+}
+main div .bodyContent ul .head h4{
+  margin-right: 150px;
+  width: 100%; 
+}
+main div .bodyContent ul li{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  padding: 0px 20px 0px 20px;
+}
+main div .bodyContent ul li h4{
+  margin-right: 70px;
+  width: 100%; 
+}
+main div .bodyContent ul li p{
+  margin-right: 70px;
+  width: 100%; 
+}
+
+
+
+
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
